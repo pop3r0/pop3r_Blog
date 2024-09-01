@@ -155,10 +155,8 @@
   }
 }
 
-@media only screen and (max-width: 100%) {
-  .notion-search-button {
-    display: none !important;
-  }
+.notion-search-button {
+  display: none !important;
 }
 
 .notion .notion-page-icon-cover {
@@ -405,5 +403,5 @@
 }
 
 .breadcrumbs {
-  display: none;
+  display: none !important;
 }
